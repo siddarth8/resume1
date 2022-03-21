@@ -1,0 +1,158 @@
+
+body{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+h2 {
+    color: #848c99;
+}
+#title2 #title1{
+     
+    color: #848c99;
+}
+.container
+{
+ position: relative;
+ background-color: lightblue;
+ width:100%;
+ max-width: 1000px;
+ min-height: 1000px;
+ margin: 50px;
+ display: grid;
+ grid-template-columns: 1fr 2fr;
+
+}
+.container .left{
+    position: relative;
+    background: #003147;
+    padding: 20px;
+}
+.container .right{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.profiletext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profiletext .imgbx img{
+    position: relative;
+    height: 280px;
+    width:280px;
+    border-radius: 50%;
+    
+}
+.profiletext h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    color: #fff ;
+}
+.profiletext h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contact{
+    padding-top: 20px;
+}
+.title{
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact ul{
+    position: relative;
+}
+.contact ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contact ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+    margin: 10px;
+}
+.contact ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+.container .education li{
+     margin-bottom: 15px;
+}
+.container .education h5{
+    color:#03a9f4;
+    font-weight: 600;
+}
+.container .education h4 :nth-child(2)
+{
+    color: #fff;
+    font-weight: 500;
+    margin: 0;
+}
+.container .education h4{
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0px;
+}
+.title2
+{
+    color: #003147;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+    color: rgb(63, 56, 56);
+}
+a{
+    color: rgb(58, 17, 17);
+}
+h4{
+    margin: 40px 0 0 0;
+    font-weight: 600;
+}
+h2 {
+    color: #848c99;
+}
+
+.hobby .box ul{
+list-style: square;
+}
+
+@media (max-width: 1000px)
+{
+    .container
+    {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+#playify{
+    margin-bottom: 0;
+}
+.social{
+    color: #fff;
+}
